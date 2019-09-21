@@ -3,6 +3,6 @@ node {
     git 'https://github.com/Teja982/myapp'
   }
   stage('Compile-Package'){
-    sh 'mvn clean Package'
+    sh 'mvn clean package'
    }
  }
